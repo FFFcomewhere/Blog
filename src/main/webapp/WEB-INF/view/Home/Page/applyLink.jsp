@@ -21,9 +21,9 @@
         <a class="crumbs" href="/">
             <i class="fa fa-home"></i>首页
         </a>
-        <i class="fa fa-angle-right"></i>
-        申请友链
-        <i class="fa fa-angle-right"></i>
+<%--        <i class="fa fa-angle-right"></i>--%>
+<%--        申请友链--%>
+<%--        <i class="fa fa-angle-right"></i>--%>
         正文
     </nav>
     <%--面包屑导航 end--%>
@@ -36,9 +36,9 @@
         <main id="main" class="site-main" role="main">
             <article class="post" style="min-height: 500px;">
                 <header class="entry-header">
-                    <h1 class="entry-title">
-                           申请友链
-                    </h1>
+<%--                    <h1 class="entry-title">--%>
+<%--                           申请友链--%>
+<%--                    </h1>--%>
                 </header><!-- .entry-header -->
                 <div class="entry-content">
                     <div class="single-content">

@@ -116,29 +116,29 @@
 </rapid:override>
 <%--左侧区域 end--%>
 
-<%--侧边栏 start--%>
-<rapid:override name="right">
-    <%@include file="Public/part/sidebar-2.jsp" %>
-</rapid:override>
-<%--侧边栏 end--%>
+<%--&lt;%&ndash;侧边栏 start&ndash;%&gt;--%>
+<%--<rapid:override name="right">--%>
+<%--    <%@include file="Public/part/sidebar-2.jsp" %>--%>
+<%--</rapid:override>--%>
+<%--&lt;%&ndash;侧边栏 end&ndash;%&gt;--%>
 
-<%--友情链接 start--%>
-<rapid:override name="link">
-    <div class="links-box">
-        <div id="links">
-            <c:forEach items="${linkList}" var="l">
-                <ul class="lx7">
-                    <li class="link-f link-name">
-                        <a href="${l.linkUrl}" target="_blank">
-                                ${l.linkName}
-                        </a>
-                    </li>
-                </ul>
-            </c:forEach>
-            <div class="clear"></div>
-        </div>
-    </div>
-</rapid:override>
-<%--友情链接 end--%>
+<%--&lt;%&ndash;友情链接 start&ndash;%&gt;--%>
+<%--<rapid:override name="link">--%>
+<%--    <div class="links-box">--%>
+<%--        <div id="links">--%>
+<%--            <c:forEach items="${linkList}" var="l">--%>
+<%--                <ul class="lx7">--%>
+<%--                    <li class="link-f link-name">--%>
+<%--                        <a href="${l.linkUrl}" target="_blank">--%>
+<%--                                ${l.linkName}--%>
+<%--                        </a>--%>
+<%--                    </li>--%>
+<%--                </ul>--%>
+<%--            </c:forEach>--%>
+<%--            <div class="clear"></div>--%>
+<%--        </div>--%>
+<%--    </div>--%>
+<%--</rapid:override>--%>
+<%--&lt;%&ndash;友情链接 end&ndash;%&gt;--%>
 
 <%@ include file="Public/framework.jsp" %>

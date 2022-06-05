@@ -5,17 +5,17 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib prefix="rapid" uri="http://www.rapid-framework.org.cn/rapid" %>
 
-<rapid:override name="description">
-    <meta name="description" content="文章归档"/>
-</rapid:override>
+<%--<rapid:override name="description">--%>
+<%--    <meta name="description" content="文章归档"/>--%>
+<%--</rapid:override>--%>
 
-<rapid:override name="keywords">
-    <meta name="keywords" content="文章,归档"/>
-</rapid:override>
+<%--<rapid:override name="keywords">--%>
+<%--    <meta name="keywords" content="文章,归档"/>--%>
+<%--</rapid:override>--%>
 
-<rapid:override name="title">
-    <title>文章归档--${options.optionSiteTitle}</title>
-</rapid:override>
+<%--<rapid:override name="title">--%>
+<%--    <title>文章归档--${options.optionSiteTitle}</title>--%>
+<%--</rapid:override>--%>
 
 <rapid:override name="breadcrumb">
     <%--面包屑导航 start--%>

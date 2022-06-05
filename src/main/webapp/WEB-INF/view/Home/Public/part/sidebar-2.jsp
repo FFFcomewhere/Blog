@@ -1,8 +1,8 @@
-<%--
-    一般用于首页侧边栏：
-    包括 关于本站，网站概况，热评文章，所有标签，随机文章 等小工具
+<%--&lt;%&ndash;--%>
+<%--    一般用于首页侧边栏：--%>
+<%--    包括 关于本站，网站概况，热评文章，所有标签，随机文章 等小工具--%>
 
---%>
+<%--&ndash;%&gt;--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <%--博客主体-右侧侧边栏 start--%>
@@ -11,9 +11,9 @@
 
     <%--关于本站 start--%>
     <aside class="widget about">
-        <h3 class="widget-title">
-            <i class="fa fa-bars"></i>关于本站
-        </h3>
+<%--        <h3 class="widget-title">--%>
+<%--            <i class="fa fa-bars"></i>关于本站--%>
+<%--        </h3>--%>
         <div id="feed_widget">
             <div class="feed-about">
                 <div class="about-main">
@@ -93,22 +93,22 @@
     <%--网站概况 end--%>
 
     <%--所有标签 start--%>
-    <aside class="widget">
-        <h3 class="widget-title">
-            <i class="fa fa-bars"></i>所有标签
-        </h3>
-        <div class="tagcloud">
-            <c:forEach items="${allTagList}" var="tag">
-                <a href="/tag/${tag.tagId}"
-                   class="tag-link-129 tag-link-position-1"
-                   style="font-size: 14px;">
-                        ${tag.tagName}
-                </a>
-            </c:forEach>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </aside>
+<%--    <aside class="widget">--%>
+<%--        <h3 class="widget-title">--%>
+<%--            <i class="fa fa-bars"></i>所有标签--%>
+<%--        </h3>--%>
+<%--        <div class="tagcloud">--%>
+<%--            <c:forEach items="${allTagList}" var="tag">--%>
+<%--                <a href="/tag/${tag.tagId}"--%>
+<%--                   class="tag-link-129 tag-link-position-1"--%>
+<%--                   style="font-size: 14px;">--%>
+<%--                        ${tag.tagName}--%>
+<%--                </a>--%>
+<%--            </c:forEach>--%>
+<%--            <div class="clear"></div>--%>
+<%--        </div>--%>
+<%--        <div class="clear"></div>--%>
+<%--    </aside>--%>
     <%--所有标签 end--%>
 
 

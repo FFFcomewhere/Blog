@@ -43,22 +43,22 @@
         <%--热评文章 end--%>
 
         <%--所有标签 start--%>
-        <aside class="widget">
-            <h3 class="widget-title">
-                <i class="fa fa-bars"></i>所有标签
-            </h3>
-            <div class="tagcloud">
-                <c:forEach items="${allTagList}" var="t">
-                    <a href="/tag/${t.tagId}"
-                       class="tag-link-129 tag-link-position-1"
-                       style="font-size: 14px;">
-                            ${t.tagName}
-                    </a>
-                </c:forEach>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </aside>
+<%--        <aside class="widget">--%>
+<%--            <h3 class="widget-title">--%>
+<%--                <i class="fa fa-bars"></i>所有标签--%>
+<%--            </h3>--%>
+<%--            <div class="tagcloud">--%>
+<%--                <c:forEach items="${allTagList}" var="t">--%>
+<%--                    <a href="/tag/${t.tagId}"--%>
+<%--                       class="tag-link-129 tag-link-position-1"--%>
+<%--                       style="font-size: 14px;">--%>
+<%--                            ${t.tagName}--%>
+<%--                    </a>--%>
+<%--                </c:forEach>--%>
+<%--                <div class="clear"></div>--%>
+<%--            </div>--%>
+<%--            <div class="clear"></div>--%>
+<%--        </aside>--%>
         <%--所有标签 end--%>
 
         <%--博客主体-右侧侧边栏-随机文章 start--%>

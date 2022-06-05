@@ -1,0 +1,32 @@
+package com.java.ssm.blog.service;
+
+import com.java.ssm.blog.entity.User;
+import com.java.ssm.blog.BaseTest;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.Assert;
+
+/**
+ * @author java
+ * @date 2020/10/10 2:32 下午
+ */
+
+public class UserServiceTest extends BaseTest {
+
+    @Autowired
+    private UserService userService;
+
+    @Test
+    public void getUserById() {
+        User user = userService.getUserById(122222);
+        System.out.println(user);
+        Assert.notNull(user, "用户不存在");
+    }
+
+    @Test
+    public void getUserByName() {
+        User user = userService.getUserByName("admin");
+        System.out.println(user);
+        Assert.notNull(user, "用户名不存在");
+    }
+}

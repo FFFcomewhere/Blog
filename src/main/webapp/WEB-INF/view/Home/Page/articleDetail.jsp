@@ -61,19 +61,7 @@
                     <div class="single-content">
                             ${article.articleContent}
                     </div>
-                    <div class="s-weixin">
-                        <ul class="weimg1">
-                            <li><strong>微信</strong></li>
-                            <li>赶快加我聊天吧</li>
-                            <li><img src="/img/weixin.jpg"></li>
-                        </ul>
-                        <ul class="weimg2">
-                            <li><strong>博客交流群</strong></li>
-                            <li>海纳百川，大家来水</li>
-                            <li><img src="/img/qqGroup.jpg" alt="weinxin"></li>
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
+
                     <div class="clear"></div>
                     <div id="social">
                         <div class="social-main">
@@ -85,35 +73,6 @@
                                        id="count-${article.articleId}">${article.articleLikeCount}</i>
                                 </a>
                             </span>
-                            <div class="shang-p">
-                                <div class="shang-empty"><span></span></div>
-                                <span class="shang-s">
-                                    <a onclick="PaymentUtils.show();" style="cursor:pointer">赏</a>
-                                </span>
-                            </div>
-                            <div class="share-sd">
-                                        <span class="share-s" style="margin-top: 25px!important;">
-                                            <a href="javascript:void(0)" id="share-s" title="分享">
-                                                <i class="fa fa-share-alt"></i>分享
-                                            </a>
-                                        </span>
-                                <div id="share">
-                                    <ul class="bdsharebuttonbox bdshare-button-style1-16" data-bd-bind="1503997585792">
-                                        <li><a title="更多" class="bds_more fa fa-plus-square" data-cmd="more"
-                                               onclick="return false;" href="#"></a></li>
-                                        <li><a title="分享到QQ空间" class="fa fa-qq" data-cmd="qzone" onclick="return false;"
-                                               href="#"></a></li>
-                                        <li><a title="分享到新浪微博" class="fa fa-weibo" data-cmd="tsina"
-                                               onclick="return false;" href="#"></a></li>
-                                        <li><a title="分享到腾讯微博" class="fa fa-pinterest-square" data-cmd="tqq"
-                                               onclick="return false;" href="#"></a></li>
-                                        <li><a title="分享到人人网" class="fa fa-renren" data-cmd="renren"
-                                               onclick="return false;" href="#"></a></li>
-                                        <li><a title="分享到微信" class="fa fa-weixin" data-cmd="weixin"
-                                               onclick="return false;" href="#"></a></li>
-                                    </ul>
-                                </div>
-                            </div>
                             <div class="clear"></div>
                         </div>
                     </div>
@@ -180,32 +139,16 @@
                 <%--所属标签 end--%>
 
 
-                <%--版权声明 start--%>
-            <div class="authorbio wow fadeInUp">
-                <img alt="${article.user.userNickname}" src="${article.user.userAvatar}"
-                     class="avatar avatar-64 photo" height="64" width="64">
-                <ul class="postinfo">
-                    <li></li>
-                    <li><strong>版权声明：</strong>本站原创文章，于<fmt:formatDate
-                            value="${article.articleCreateTime}"
-                            pattern="yyyy-MM-dd"/>，由
-                        <strong>
-                                ${article.user.userNickname}
-                        </strong>
-                        发表。
-                    </li>
-                    <li class="reprinted"><strong>转载请注明：</strong>
-                        <a href="/article/${article.articleId}"
-                           rel="bookmark"
-                           title="本文固定链接 /article/${article.articleId}">
-                                ${article.articleTitle} | ${options.optionSiteTitle}</a>
-                    </li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-                <%--版权声明 end--%>
+<%--                &lt;%&ndash;版权声明 start&ndash;%&gt;--%>
+<%--            <div class="authorbio wow fadeInUp">--%>
+<%--                <img alt="${article.user.userNickname}" src="${article.user.userAvatar}"--%>
+<%--                     class="avatar avatar-64 photo" height="64" width="64">--%>
+<%--                <ul class="postinfo">--%>
+<%--                    <li></li>--%>
+<%--                </ul>--%>
+<%--                <div class="clear"></div>--%>
+<%--            </div>--%>
 
-                <%--相关文章 start--%>
             <div id="single-widget">
                 <div class="wow fadeInUp" data-wow-delay="0.3s">
                     <aside id="related_post-2" class="widget">
